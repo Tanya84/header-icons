@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  float: left;
+
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+header {
+  background-color: #d05c2e
+}
+
+nav li {
+  display: inline-block;
+}
