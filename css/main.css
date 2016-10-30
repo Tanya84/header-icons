@@ -1,25 +1,62 @@
 html {
   box-sizing: border-box;
+  font: normal 100%/1.5 Merriweather, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 img {
   float: left;
+  width: 40px;
 
+}
+
+.grain {
+  float: right;
 }
 
 h1 {
   text-align: center;
   color: #fff;
+  margin: .3rem;
+
 }
 
 header {
-  background-color: #d05c2e
+  background-color: #d05c2e;
+  overflow: hidden;
+  padding: .5em 0 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
 }
 
 nav li {
-  display: inline-block;
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  font-size: 1.125rem;
+  text-decoration: none;
+  border: 1px solid #a63f38;
+  padding: .4rem 0;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #a63f38;
+
 }
